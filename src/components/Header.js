@@ -14,9 +14,9 @@ function Header() {
     >
         <div>
             <div>
-                <LazyLoadImage src={content.header.img} effect="blur" placeholder={process.env.PUBLIC_URL + '/logo512.png'}/>
+                <LazyLoadImage src={content.header.img} effect="blur"/>
             </div>
-            <div className='text-white'>
+            <div className=' text-white'>
                 <h2 className='text-3xl font-bold text-center'>
                     {content.header.text[0]}<br/>
                     {content.header.text[1]}
