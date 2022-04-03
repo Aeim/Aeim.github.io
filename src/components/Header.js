@@ -14,7 +14,7 @@ function Header() {
     >
         <div className='w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between'>
             <div className='w-full md:w-2/5'>
-                <LazyLoadImage src={content.header.img} effect="blur"/>
+                <LazyLoadImage src={content.header.img} effect="blur" className='rounded-2xl'/>
             </div>
             <div className=' text-white text-center md:text-left'>
                 <h2 className='text-3xl md:text-5xl font-bold'>
