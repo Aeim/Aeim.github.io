@@ -12,12 +12,12 @@ function Header() {
         background: '#091c29',
         }}
     >
-        <div>
-            <div>
+        <div className='w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between'>
+            <div className='w-full md:w-2/5'>
                 <LazyLoadImage src={content.header.img} effect="blur"/>
             </div>
-            <div className=' text-white'>
-                <h2 className='text-3xl font-bold text-center'>
+            <div className=' text-white text-center md:text-left'>
+                <h2 className='text-3xl md:text-5xl font-bold'>
                     {content.header.text[0]}<br/>
                     {content.header.text[1]}
                 </h2>
@@ -29,7 +29,7 @@ function Header() {
                         className='inline-block'
                     />
                 </h1>
-                <button className='bg-indigo-500 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
+                <button className='animate-bounce bg-indigo-500 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
                     {content.header.btnText}
                 </button>
             </div>
