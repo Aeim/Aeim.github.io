@@ -18,32 +18,32 @@ export default {
         3000,
         'Kaggler',
         3000,
-        'Self-taught Data Scientist',
+        'Self-taught Data Engineer',
         10000,
       ],
-      btnText: 'Download CV',
+      btnText: 'Discover More',
     },
 
     stack: {
       title: 'Stack',
       tech: [
         {
-          img: process.env.PUBLIC_URL + '/assets/mongo.png',
+          img: process.env.PUBLIC_URL + '/python.png',
           alt: 'mongodb',
         },
         {
-          img: process.env.PUBLIC_URL + '/logo512.png',
+          img: process.env.PUBLIC_URL + '/c++.png',
           alt: 'react',
         },
         {
-          img: process.env.PUBLIC_URL + '/assets/express.png',
+          img: process.env.PUBLIC_URL + '/pytorch.png',
           alt: 'express',
         },
         {
-          img: process.env.PUBLIC_URL + '/assets/node.png',
+          img: process.env.PUBLIC_URL + '/tensorflow.png',
           alt: 'node',
         },
       ],
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
+      desc: `Data science, AI & Machine Learning, Deep learning, and Big Data technologies. `,
     },
   };
